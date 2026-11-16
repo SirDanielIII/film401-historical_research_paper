@@ -1,0 +1,60 @@
+BEYOND THE GREEN SCREEN
+Petro Vlahos and the Evolution of Special Effects
+FILM 401 | Five editable narration chapters
+
+666 spoken words. About 4:45 at 140 words per minute, before demonstration pauses. Rehearse at your own pace.
+Read only the paragraphs. Headings and file instructions are not spoken. No audio plays automatically.
+
+1. INTRODUCTION
+File: 01-introduction.mp3 | 91 words | About 0:39 at 140 wpm
+
+In 1964, Dick Van Dyke danced alongside animated penguins in Mary Poppins. The actors and the animation were made separately, and someone had to make them appear in the same world. Today, we might use a green screen. Disney used a backdrop illuminated by yellow sodium-vapour light.
+
+Petro Vlahos helped develop that technology. He also improved blue-screen compositing. His contribution wasn’t the first coloured screen. It was a more precise way to separate a performance from its surroundings, so filmmakers could combine images without losing the details that made them convincing.
+
+————————————————————————————————————————————————
+
+2. AN ENGINEER ENTERS HOLLYWOOD
+File: 02-biography.mp3 | 112 words | About 0:48 at 140 wpm
+
+Vlahos was born in Raton, New Mexico, in 1916. His family moved to San Pedro, California, when he was eight. After earning an engineering degree at Berkeley in 1941, he worked at Douglas Aircraft during the war and later as a radar engineer at Bell Laboratories. An MGM connection led him to the Motion Picture Research Council.
+
+Hollywood was changing. Television competed for audiences, while antitrust decisions and HUAC investigations unsettled the studio system. Those events are historical context, not proven causes of his inventions. Studios invested in widescreen films and expensive spectacles, and shared research helped crews adapt. Vlahos brought engineering experience to an industry with increasingly demanding pictures to make.
+
+————————————————————————————————————————————————
+
+3. BEFORE VLAHOS AND COLOUR DIFFERENCE
+File: 03-colour-difference.mp3 | 179 words | About 1:17 at 140 wpm
+
+Compositing already had a history. Films such as The Thief of Bagdad, in 1940, combined separately photographed elements. A travelling matte is a mask that follows a subject from frame to frame. The difficulty is the boundary: hair, smoke, moving hands, and transparent objects don’t have a clean outline. A crude mask makes them look cut out.
+
+Ben-Hur’s large-format photography presented another problem. A system built around a modified 35-millimetre camera couldn’t simply serve its 65-millimetre production. Vlahos developed a more flexible blue-screen approach, filing his colour-difference patent in 1959.
+
+He worked with photographic colour records. A blue backing registers differently from most foreground subjects in red, green, and blue information. By comparing and carefully reconstructing those records, his process could produce better mattes and control unwanted blue edges.
+
+The interactive photograph below makes that principle visible. Try a colour channel, then the matte and final composite. It uses modern software and a green screen. Vlahos’s original method used film, masks, and controlled printing, so this is an explanation of the problem rather than a recreation of his laboratory.
+
+————————————————————————————————————————————————
+
+4. SODIUM VAPOUR AND MARY POPPINS
+File: 04-sodium-vapour.mp3 | 133 words | About 0:57 at 140 wpm
+
+The sodium-vapour system took a different approach. Vlahos filed that patent in 1958, before his colour-difference filing, even though we’re looking at it second here.
+
+Actors received ordinary lighting in front of a backdrop lit by sodium lamps. Their light occupied a very narrow yellow band. Inside a modified camera, coated optics separated that band from the rest of the image. One film record preserved the performance; another recorded the matte at the same instant. That correspondence helped preserve soft edges and transparency.
+
+Disney used the process in Mary Poppins. Ub Iwerks helped adapt and perfect it for production, and the Academy’s shared award names Vlahos, Iwerks, and Wadsworth E. Pohl. British work also belongs to this history. A patent identifies Vlahos’s particular system; it doesn’t make the wider development a one-person invention.
+
+————————————————————————————————————————————————
+
+5. ULTIMATTE AND LEGACY
+File: 05-legacy.mp3 | 151 words | About 1:05 at 140 wpm
+
+In 1976, Vlahos founded Ultimatte, extending his work into electronic compositing. Instead of constructing photographic records, electronic systems compared image signals. His patent addressed uneven screens, shadows, reflected blue light, and partial transparency. Later, he and his son Paul received an Academy Award for the Ultimatte process, for the 1994 awards year. His 1978 Emmy also recognized the importance of his work to television, alongside his contributions to motion-picture effects.
+
+Modern digital tools still face those problems. A camera records colour, but it doesn’t automatically know where a subject ends. A matte still has to be derived, and the lighting and perspective still have to match.
+
+Corridor Crew revisited sodium-vapour matting in 2024. That reconstruction shows continued interest in optical separation; it isn’t evidence that the old process suits every production. Across film and electronics, Vlahos helped make image separation more dependable and gave filmmakers more options for assembling a scene.
+
+Detailed research, citations, and historical qualifications remain in the exhibit.
+The formal 800-word paper is a separate requirement unless your professor approves a creative equivalent.

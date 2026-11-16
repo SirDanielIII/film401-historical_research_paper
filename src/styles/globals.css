@@ -1,0 +1,39 @@
+@import './print.css';
+
+/* Exhibit-only styles: no host body, html, :root, or unscoped element rules. */
+.vlahos-exhibit{--muted:#a7a5ae;--line:#333138;--surface:#1c1b20;--soft:#24212b;--accent:var(--lavender);--accent-ink:#c4b3ef;--cyan-ink:#73cfe5;--gold-ink:#E9C683;--green-ink:#80cbb4;--gutter:clamp(20px,4vw,64px);--body:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--header-offset:145px;background:var(--bg);color:var(--ink);font-family:var(--font);font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;min-width:0;isolation:isolate;overflow:clip;line-height:1.5}
+.vlahos-exhibit[data-theme=light]{--muted:#5e5967;--line:#d9d5df;--surface:#efecf2;--soft:#eee7f5;--accent-ink:#705397;--cyan-ink:#11677d;--gold-ink:#795615;--green-ink:#22674e}
+.vlahos-exhibit *,.vlahos-exhibit *::before,.vlahos-exhibit *::after{box-sizing:border-box}
+.vlahos-exhibit :is(h1,h2,h3,h4,p,figure,ol,ul,dl,dd){margin:0}
+.vlahos-exhibit :is(h1,h2,h3,h4){font-family:var(--font);font-weight:400;line-height:1.15;text-wrap:balance}
+.vlahos-exhibit :is(p,dd){line-height:1.75}
+.vlahos-exhibit :is(button,input,select){font:inherit;accent-color:var(--accent)}
+.vlahos-exhibit :is(button,a,input,select,summary){-webkit-tap-highlight-color:transparent}
+.vlahos-exhibit button{cursor:pointer;color:inherit;border:0;background:none;touch-action:manipulation}
+.vlahos-exhibit :is(select,summary){cursor:pointer}
+.vlahos-exhibit a{color:inherit;text-decoration:none;touch-action:manipulation}
+.vlahos-exhibit :is(button,select):disabled{cursor:default;opacity:.45}
+.vlahos-exhibit :is(a,button,input,select,summary):focus-visible{outline:3px solid var(--accent-ink);outline-offset:4px;border-radius:4px}
+.vlahos-exhibit :is(h1,h2):focus{outline:none}
+.vlahos-exhibit article:focus{outline:2px solid var(--accent-ink);outline-offset:8px}
+.vlahos-exhibit ::selection{background:var(--lavender);color:#121212}
+.vlahos-exhibit .icon{display:inline-block;flex-shrink:0;vertical-align:middle}
+.vlahos-exhibit .reverse{transform:rotate(180deg)}
+.vlahos-exhibit .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.vlahos-exhibit .skip-link{position:fixed;top:-100px;left:20px;z-index:100;background:var(--lavender);color:#121212;padding:15px;border-radius:8px}
+.vlahos-exhibit .skip-link:focus{top:15px}
+.vlahos-exhibit .eyebrow{font-family:var(--font);font-size:11px;line-height:1.5;letter-spacing:.16em;color:var(--accent-ink);text-transform:uppercase}
+.vlahos-exhibit .button{display:inline-flex;justify-content:center;align-items:center;gap:12px;min-height:50px;padding:13px 20px;border-radius:10px;font-size:18px;transition:background .18s,transform .18s,border-color .18s}
+.vlahos-exhibit .primary{background:var(--lavender);color:#121212;border:1px solid var(--lavender)}
+.vlahos-exhibit .primary:hover{background:#c4b3ef;transform:translateY(-2px)}
+.vlahos-exhibit .secondary{border:1px solid var(--line);background:var(--panel)}
+.vlahos-exhibit .secondary:hover{border-color:var(--accent-ink);transform:translateY(-2px)}
+.vlahos-exhibit .text-button{display:inline-flex;align-items:center;gap:12px;color:var(--accent-ink);padding:12px 0;min-height:44px}
+.vlahos-exhibit .inline-link{color:var(--accent-ink);text-decoration:underline;text-underline-offset:.22em;line-height:1.6}
+.vlahos-exhibit .inline-link:hover{opacity:.8}
+.vlahos-exhibit .citations{display:inline-flex;flex-wrap:wrap;gap:5px;vertical-align:super;font:11px/1.4 var(--body);margin-left:3px;color:var(--accent-ink)}
+.vlahos-exhibit .citations a:hover{text-decoration:underline}
+.vlahos-exhibit [id]{scroll-margin-top:var(--header-offset)}
+.vlahos-exhibit .accent-cyan{--accent:var(--cyan);--accent-ink:var(--cyan-ink)}
+.vlahos-exhibit .accent-gold{--accent:var(--gold);--accent-ink:var(--gold-ink)}
+@media(prefers-reduced-motion:reduce){.vlahos-exhibit *,.vlahos-exhibit *::before,.vlahos-exhibit *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

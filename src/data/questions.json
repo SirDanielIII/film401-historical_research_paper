@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "question": "Who was Petro Vlahos in one sentence?",
+    "answer": "An American engineer whose colour-difference, sodium-vapour and electronic compositing work made it easier to combine separately recorded film and video images.",
+    "topic": "Biography and career",
+    "sources": [
+      "S1",
+      "S9"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Did Vlahos actually invent green screens?",
+    "answer": "No. Earlier blue-screen and matte methods existed. He produced major advances in how the foreground was isolated and its edges preserved.",
+    "topic": "Early compositing",
+    "sources": [
+      "S5"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is a travelling matte?",
+    "answer": "A mask that changes frame to frame to follow the subject. It controls which part of a foreground image covers the replacement background.",
+    "topic": "Early compositing",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Why do you need a matte?",
+    "answer": "Without a matte the background photographed behind the actor remains in the image. A matte tells the system where to retain the actor and where to show something else.",
+    "topic": "Early compositing",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Why were blue fringes such a problem?",
+    "answer": "Small gaps and mixed-light boundaries made matte edges imprecise. Residual blue made an actor look pasted onto the scene, ruining the illusion.",
+    "topic": "Colour-difference technology",
+    "sources": [
+      "S2",
+      "S5"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "How did colour-difference compositing work?",
+    "answer": "It exploited the fact that blue-screen background light produces different photographic colour records from most foreground material. Those records were processed into mattes and a reconstructed image. Exact chemical steps are detailed in patent US3158477A.",
+    "topic": "Colour-difference technology",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Was he using digital RGB sensors in 1959?",
+    "answer": "No. His original system used motion-picture film and photographic colour separations. RGB is a helpful conceptual bridge, not a claim about original equipment.",
+    "topic": "Colour-difference technology",
+    "sources": [
+      "S2"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What was special about Ben-Hur?",
+    "answer": "Its ambitious 65 mm photographic format and effects requirements made a process tied to a modified 35 mm sodium camera unsuitable; Vlahos refined a blue-screen technique for the production context.",
+    "topic": "Historical context",
+    "sources": [
+      "S5",
+      "S8"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Did the chariot race use his effect?",
+    "answer": "Sources connect development of the system with Ben-Hur and sometimes mention the chariot race. Claims about every famous shot require shot-level production evidence that is not supplied here.",
+    "topic": "Colour-difference technology",
+    "sources": [
+      "S5",
+      "S9"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is sodium-vapour light?",
+    "answer": "Light emitted by certain sodium discharge lamps, heavily concentrated at yellow wavelengths around 589 nm. That narrow spectrum made optical separation possible.",
+    "topic": "Sodium-vapour photography",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "How does the sodium prism work?",
+    "answer": "A wavelength-selective optical coating directs the narrow yellow background band into the matte record while the remaining light forms the colour image. The two records are captured in sync.",
+    "topic": "Sodium-vapour photography",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Why could the yellow system preserve hair better?",
+    "answer": "The matte was recorded from the same optical view at the same moment and could represent partial transmission through fuzzy or translucent boundaries, avoiding some errors of separately fabricated masks.",
+    "topic": "Sodium-vapour photography",
+    "sources": [
+      "S3",
+      "S7"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Why did Disney use yellow instead of blue?",
+    "answer": "The sodium system produced high-quality travelling mattes well suited to combining live action with animation, especially tricky edges and transparency.",
+    "topic": "Mary Poppins and attribution",
+    "sources": [
+      "S5",
+      "S7"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Could performers wear blue in a sodium-vapour shot?",
+    "answer": "The sodium system does not identify “all blue” as background. Unlike blue keying, it can preserve naturally blue foreground objects, though lighting and reflected sodium light still need control.",
+    "topic": "Sodium-vapour photography",
+    "sources": [
+      "S3"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Who was Ub Iwerks?",
+    "answer": "A Disney animation and technical pioneer who helped adapt and perfect the sodium-vapour camera workflow for motion-picture production. Academy records credit him together with Vlahos and Pohl.",
+    "topic": "Mary Poppins and attribution",
+    "sources": [
+      "S5",
+      "S6",
+      "S7"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What did Wadsworth E. Pohl do?",
+    "answer": "The Academy lists him as one of three jointly honoured inventors/contributors to colour travelling-matte composite cinematography. The shared award is certain; this source set gives less detail on his individual engineering role, so avoid overassigning a specific component.",
+    "topic": "Mary Poppins and attribution",
+    "sources": [
+      "S6"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Was sodium-vapour matting invented only in the United States?",
+    "answer": "No. Sources describe parallel British developments, including work associated with Rank. A patent for Vlahos’s version does not erase the British lineage.",
+    "topic": "Sodium-vapour photography",
+    "sources": [
+      "S5",
+      "S12"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Why did sodium-vapour matting fall out of common use?",
+    "answer": "It relied on specialized lamps, optical coatings and modified film cameras. Blue/green screens were easier to scale to different equipment, and electronic and later digital keyers improved.",
+    "topic": "Sodium-vapour photography",
+    "sources": [
+      "S5",
+      "S7"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Why are green screens now more common than blue?",
+    "answer": "Many digital cameras have stronger sampled green information, and green may offer efficient extraction. It is not a universal rule: green wardrobe, reflections and scene requirements can favour blue.",
+    "topic": "Ultimatte and modern technology",
+    "sources": [
+      "S11"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is Ultimatte?",
+    "answer": "A company and family of electronic compositing processes associated with Vlahos; its keyers advanced the control of foreground/background mixing, colour spill, shadows and semi-transparent edges.",
+    "topic": "Ultimatte and modern technology",
+    "sources": [
+      "S1",
+      "S4"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Can a camera sensor record transparency automatically?",
+    "answer": "Usually no. A conventional RGB camera records light and colour, not a perfect per-pixel foreground opacity channel. Matte or alpha information is created by keying, other capture signals or additional processes.",
+    "topic": "Ultimatte and modern technology",
+    "sources": [
+      "S11"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What did Corridor Crew demonstrate?",
+    "answer": "They revisited the historical sodium-vapour approach using contemporary methods. It is a striking modern interpretation, but original patents and archival records are better evidence for 1950s–60s credit.",
+    "topic": "Ultimatte and modern technology",
+    "sources": [
+      "S10"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "How is this an example of political or social history?",
+    "answer": "His career links wartime technical expertise with Hollywood, while 1950s studio competition with television, restructuring and collaborative research institutions shaped demand for film technology.",
+    "topic": "Historical context",
+    "sources": [
+      "S1",
+      "S8"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What is the strongest criticism of your argument?",
+    "answer": "The argument could overstate one inventor’s ownership of a collaborative industry. A more defensible account separates the earlier blue-screen lineage, British work, Vlahos’s patents, Iwerks’s production role, and the Academy’s shared award.",
+    "topic": "Biography and career",
+    "sources": [
+      "S2",
+      "S5",
+      "S6",
+      "S7",
+      "S12"
+    ]
+  }
+]

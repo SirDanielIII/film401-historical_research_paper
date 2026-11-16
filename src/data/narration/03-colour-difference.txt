@@ -1,0 +1,7 @@
+Compositing already had a history. Films such as The Thief of Bagdad, in 1940, combined separately photographed elements. A travelling matte is a mask that follows a subject from frame to frame. The difficulty is the boundary: hair, smoke, moving hands, and transparent objects don’t have a clean outline. A crude mask makes them look cut out.
+
+Ben-Hur’s large-format photography presented another problem. A system built around a modified 35-millimetre camera couldn’t simply serve its 65-millimetre production. Vlahos developed a more flexible blue-screen approach, filing his colour-difference patent in 1959.
+
+He worked with photographic colour records. A blue backing registers differently from most foreground subjects in red, green, and blue information. By comparing and carefully reconstructing those records, his process could produce better mattes and control unwanted blue edges.
+
+The interactive photograph below makes that principle visible. Try a colour channel, then the matte and final composite. It uses modern software and a green screen. Vlahos’s original method used film, masks, and controlled printing, so this is an explanation of the problem rather than a recreation of his laboratory.

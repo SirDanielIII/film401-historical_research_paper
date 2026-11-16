@@ -1,0 +1,4 @@
+/* Imported only by main.tsx, never by the embeddable exhibit component. */
+body{margin:0;background:#121212}
+html{scrollbar-gutter:stable}
+#root{min-height:100vh}
