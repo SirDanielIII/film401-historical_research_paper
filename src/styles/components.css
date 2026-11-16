@@ -29,7 +29,6 @@
 .vlahos-exhibit .hero-image{position:relative;min-width:0}
 .vlahos-exhibit .hero-image .media-image{aspect-ratio:1.22;background:#141414;border-radius:22px;box-shadow:0 15px 50px #0000001a}
 .vlahos-exhibit .hero-image .media-image img{position:absolute;inset:0;height:100%;object-fit:cover;object-position:48% 50%;width:100%}
-.vlahos-exhibit .film-label{position:absolute;top:20px;left:20px;right:20px;color:#fff;font-size:11px;letter-spacing:.15em;text-shadow:0 1px 5px #000;display:flex;justify-content:space-between}
 .vlahos-exhibit .hero-image figcaption{padding:13px 0 0}
 .vlahos-exhibit .opening-argument{display:grid;grid-template-columns:1fr 1fr;gap:6%;padding-top:50px;margin-top:55px;border-top:1px solid var(--line)}
 .vlahos-exhibit .opening-argument h2{font-size:clamp(26px,2.8vw,39px);line-height:1.2;margin-top:0}
