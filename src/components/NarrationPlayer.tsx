@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { narration, audioPaths, narrationSources } from '../data/narration'
-import { recordingLabels } from '../data/sections'
+import { recordingLabels, sectionHref } from '../data/sections'
 import availableAudio from '../data/available-audio.json'
 import { Icon } from './Icon'
 import { SourceCitation } from './SourceCitation'
@@ -42,6 +42,6 @@ export function NarrationPlayer({ chapter, onSelect, onClose }: { chapter: numbe
       <div className="player-track"><input type="range" aria-label="Seek chapter narration" min="0" max={Number.isFinite(duration) ? duration || 1 : 1} step="0.1" value={position} disabled={!available || !duration} onChange={e => { const seconds = Number(e.target.value); if (audio.current) audio.current.currentTime = seconds; setPosition(seconds) }} /><div><span className="audio-status" role="status">{available ? playing ? 'Playing your recording' : 'Ready to play' : failed ? 'Recording unavailable · transcript available' : 'Transcript available · audio optional'}</span><span className="audio-time">{formatTime(position)} / {available && duration ? formatTime(duration) : '—:—'}</span></div></div>
       <label className="player-speed"><span className="sr-only">Narration playback speed</span><select aria-label="Narration playback speed" value={speed} disabled={!available} onChange={e => { const v = Number(e.target.value); setSpeed(v); if (audio.current) audio.current.playbackRate = v }}><option value="1">1×</option><option value="1.25">1.25×</option></select></label>
       <button className="transcript-toggle" aria-expanded={transcript} aria-controls="narration-transcript" onClick={() => setTranscript(!transcript)}><Icon name="book" /><span>Transcript</span></button><button className="icon-button player-close" onClick={onClose} aria-label="Close narration player"><Icon name="close" /></button></div>
-    <div className="player-help"><span>← → Chapters · Space Play / pause · Esc Exit presentation</span>{chapter === 3 && <a href="#colour-difference">Continue to the colour-difference demo ↓</a>}</div>
+    <div className="player-help"><span>← → Chapters · Space Play / pause · Esc Exit presentation</span>{chapter === 3 && <a href={sectionHref('colour-difference')}>Continue to the colour-difference demo ↓</a>}</div>
   </aside>
 }

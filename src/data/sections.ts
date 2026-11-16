@@ -6,7 +6,14 @@ export const sections = [
   { id: 'sodium-vapour', label: 'Sodium vapour', number: '04' },
   { id: 'legacy', label: 'Ultimatte & legacy', number: '05' },
   { id: 'references', label: 'References', number: '06' },
-]
+] as const
+
+type SectionId = typeof sections[number]['id'] | 'questions' | 'main-content'
+
+// Section targets are rendered across components, rather than in one HTML file.
+export function sectionHref(id: SectionId): `#${SectionId}` {
+  return `#${id}`
+}
 export const recordingSections = ['introduction', 'biography', 'before-vlahos', 'sodium-vapour', 'legacy']
 export const recordingLabels = ['Introduction', 'An engineer enters Hollywood', 'Before Vlahos & colour difference', 'Sodium vapour & Mary Poppins', 'Ultimatte & legacy']
 export const legacyAnchors: Record<string, string> = {
