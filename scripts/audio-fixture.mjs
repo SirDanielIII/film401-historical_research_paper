@@ -1,9 +1,10 @@
 // Explicit test tone, never narration. Create only for browser QA; always clean afterward.
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, writeFileSync, unlinkSync } from 'node:fs'
+import { trackDefinitions } from '../src/data/narration/tracks.ts'
 const dir = new URL('../public/media/audio/', import.meta.url)
 const stateFile = new URL('../tests/.audio-fixture-state.json', import.meta.url)
-const paths = ['01-introduction.wav', '02-biography.wav']
+const paths = trackDefinitions.map(track => track.audioFilename.replace(/mp3$/, 'wav'))
 const digest = buffer => createHash('sha256').update(buffer).digest('hex')
 if (process.argv[2] === 'prepare') {
   const recordingFiles = paths.flatMap(p => ['mp3', 'wav', 'm4a', 'ogg'].map(ext => p.replace(/wav$/, ext)))
@@ -17,7 +18,7 @@ if (process.argv[2] === 'prepare') {
   for (let i = 0; i < samples; i++) buffer.writeInt16LE(Math.round(Math.sin(i / rate * 440 * 2 * Math.PI) * 250), 44 + i * 2)
   paths.forEach(p => writeFileSync(new URL(p, dir), buffer))
   writeFileSync(stateFile, JSON.stringify({ paths, digest: digest(buffer) }))
-  console.log('Two quiet 12-second TEST TONES prepared. Not narration. Run npm run test:audio:clean after QA.')
+  console.log(`${paths.length} quiet 12-second TEST TONES prepared. Not narration. Run npm run test:audio:clean after QA.`)
 } else if (process.argv[2] === 'clean') {
   if (!existsSync(stateFile)) throw new Error('No fixture state; no files removed.')
   const state = JSON.parse(readFileSync(stateFile, 'utf8'))

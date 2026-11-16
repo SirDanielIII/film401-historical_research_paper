@@ -1,9 +1,0 @@
-Compositing already had a long history. Larry Butler’s blue-screen work on The Thief of Bagdad, released in 1940, came before Vlahos. A travelling matte is a mask that follows a moving subject from frame to frame, allowing the original background to be replaced.
-
-The difficult part was preserving the boundary. Hair, glass and motion blur mix foreground and background light. A crude mask loses that detail and can leave a coloured outline.
-
-MGM needed better composites for Ben-Hur, photographed in 65 millimetres. Vlahos’s existing sodium system used a modified 35-millimetre camera, so he developed a more flexible blue-screen approach.
-
-His colour-difference method compared red, green and blue photographic records. The backing registered differently from most foreground subjects. Through carefully controlled printing, he used those differences to make mattes and reconstruct foreground colour with fewer blue fringes.
-
-The RGB demonstration shows why comparing colour information helps. Vlahos worked with film separations and laboratory exposures. He filed his patent in 1959; it was granted in 1964.

@@ -1,0 +1,11 @@
+import { titleCase } from '../../utils/titleCase'
+import { sources } from '../../data/references/sources'
+import { media } from '../../data/media/media'
+import { Icon } from '../ui/Icon'
+
+export function ReferenceLibrary() {
+  return <section className="major-section library" id="references" aria-labelledby="references-title"><header className="section-heading"><div className="section-label"><span>06</span><p className="eyebrow">Sources & Further Reading</p></div><div><h2 id="references-title" tabIndex={-1}>References</h2><p className="section-intro">Sources for Vlahos’s life, inventions and historical context.</p></div></header>
+    <div className="research-layout"><aside className="research-aside"><h3>About the Sources</h3><p>Patents describe claimed processes and dates. Award records establish official recognition. Neither provides a complete history of everyone’s work.</p><p>Foster’s interview with Vlahos and Disney’s archive history offer different perspectives on the sodium process. The Academy records the shared award.</p></aside><div className="reference-list">{sources.map(source => <article className="reference" key={source.id} id={`source-${source.id}`} tabIndex={-1}><span className="reference-number">[{source.id.slice(1)}]</span><div><p className="eyebrow">{titleCase(source.type)}</p><h3><a href={source.url} target="_blank" rel="noreferrer">{source.title} <Icon name="external" /></a></h3><p className="source-author">{source.author} · {source.year}</p><p>{source.note}</p><a className="inline-link" href={source.url} target="_blank" rel="noreferrer">Open source [{source.id.slice(1)}] ↗</a></div></article>)}</div></div>
+    <details className="media-register" id="media-credits"><summary>Image Credits and Licences <span>{media.filter(m => m.enabled).length} local assets</span></summary><div className="media-credit-grid">{media.filter(item => item.enabled).map(item => <article id={`credit-${item.id}`} key={item.id}><h3>{item.subject}</h3><p>{item.creator}</p><a href={item.sourceUrl} target="_blank" rel="noreferrer">{item.sourceTitle} ↗</a>{item.licenseUrl && <a href={item.licenseUrl} target="_blank" rel="noreferrer">{item.license}</a>}</article>)}</div></details>
+  </section>
+}

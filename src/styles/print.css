@@ -1,6 +1,6 @@
 @media print{
 .vlahos-exhibit{background:white!important;color:black!important;padding:0!important;font-size:11pt}
-.vlahos-exhibit :is(.exhibit-header,.narration-player,.hero-actions,.listen-button,.focus-research-toggle,.skip-link,.presentation-note){display:none!important}
+.vlahos-exhibit :is(.exhibit-header,.narration-player,.hero-actions,.listen-button,.skip-link,.presentation-note){display:none!important}
 .vlahos-exhibit .exhibit-content{padding:0;max-width:none}
 .vlahos-exhibit .major-section{padding:25px 0}
 .vlahos-exhibit :is(.research-layout,.research-article){display:block!important}

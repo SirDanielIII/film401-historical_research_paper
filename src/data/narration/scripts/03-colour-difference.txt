@@ -1,0 +1,21 @@
+One of the biggest challenges Vlahos faced came during the production of *Ben-Hur*, released in 1959.
+
+MGM was filming on 65mm film, which was much larger than the standard 35mm format. This created a problem because Vlahos had already been developing a specialized sodium-vapour camera, but it wasn't compatible with the larger format.
+
+So, he needed another solution.
+
+Vlahos developed what became known as the colour-difference travelling matte process.
+
+Now, he didn't actually invent colour keying. As we saw earlier, filmmakers had already been using blue screens for years. What Vlahos developed was a more effective way of separating actors from those backgrounds.
+
+His process used differences between the red, green, and blue information recorded on film to create more accurate mattes while preserving the actor's original colours.
+
+You can see the basic idea here in the INTERACTIVE EXHIBIT 01.
+
+What's interesting is that modern visual effects software still uses a similar principle. For example, tools like Keylight in After Effects or Nuke analyze the colour information in an image to create a transparency mask, allowing artists to replace a green or blue background.
+
+The major difference is that Vlahos accomplished this using photographic film and laboratory processing, rather than computers and software.
+
+His work helped lay the groundwork for the chroma-keying techniques we still use today.
+
+But Vlahos was also developing another approach that worked quite differently: the yellow screen.

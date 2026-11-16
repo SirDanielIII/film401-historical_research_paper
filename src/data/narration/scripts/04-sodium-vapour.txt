@@ -1,0 +1,17 @@
+Now, this next technique is probably my favourite, because in some ways, it's actually better than the green screens we use today.
+
+It's called the sodium-vapour process, or the yellow-screen method. Vlahos had been developing this alongside his colour-difference work, filing a patent for it in 1958.
+
+Instead of using a blue background, actors performed in front of a screen illuminated by sodium-vapour lamps, which emit a very specific wavelength of yellow light.
+
+A specially designed prism inside the camera separated that yellow light from the rest of the image, allowing filmmakers to record the actor and a matching black-and-white matte simultaneously.
+
+And here's what makes this so impressive.
+
+Unlike conventional colour keying, which can struggle with transparency, this process could produce incredibly clean results with things like glass, water, motion blur, and even sheer fabrics, like the veiled costume details in *Mary Poppins*.
+
+In fact, in 2024, the YouTube channel, Corridor Crew, worked with visual-effects researcher Paul Debevec to recreate this technique using modern cameras. The crew were genuinely surprised by just how... perfect... the resulting composites looked.
+
+Of course, the original system required specialized cameras and optics, making it less practical than other methods.
+
+But it was an impressive achievement nevertheless, and Vlahos, alongside Ub Iwerks and Wadsworth E. Pohl, received Academy technical recognition for their work on the process.

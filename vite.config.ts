@@ -5,11 +5,12 @@ import { resolve, relative } from 'node:path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  optimizeDeps: { force: true },
   plugins: [react(), {
     name: 'exclude-disabled-reference-media',
     apply: 'build',
     writeBundle(options) {
-      const media = JSON.parse(readFileSync(new URL('./src/data/media-manifest.json', import.meta.url), 'utf8')) as { enabled: boolean; path: string }[]
+      const media = JSON.parse(readFileSync(new URL('./src/data/media/media-manifest.json', import.meta.url), 'utf8')) as { enabled: boolean; path: string }[]
       const output = resolve(options.dir ?? 'dist')
       for (const item of media.filter(item => !item.enabled)) {
         if (!item.path.startsWith('media/images/') || item.path.includes('..')) throw new Error('Invalid media path')
@@ -21,5 +22,5 @@ export default defineConfig({
       }
     },
   }],
-  base: './', // Portable standalone build; see README.md for a React route.
+  base: '/film401/historical_research_paper/',
 })

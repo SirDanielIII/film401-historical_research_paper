@@ -15,7 +15,7 @@ export const themes: Record<ExhibitTheme['mode'], ExhibitTheme> = {
 export function themeStyle(theme: ExhibitTheme): CSSProperties {
   return {
     '--bg': theme.colors.background1, '--panel': theme.colors.background2, '--ink': theme.colors.text,
-    '--pink': theme.colors.highlight1, '--cyan': theme.colors.highlight2, '--lavender': theme.colors.highlight3,
+    '--pink': theme.colors.highlight1, '--cyan': theme.colors.highlight2,
     '--green': theme.colors.highlight4, '--gold': theme.colors.highlight5,
     '--font': theme.fonts?.regular ?? "'BRLNSR', 'Trebuchet MS', sans-serif",
     '--demi': theme.fonts?.demi ?? "'BRLNSD', 'Trebuchet MS', sans-serif",
