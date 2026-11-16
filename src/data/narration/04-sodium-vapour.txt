@@ -1,5 +1,7 @@
-The sodium-vapour system took a different approach. Vlahos filed that patent in 1958, before his colour-difference filing, even though we’re looking at it second here.
+Vlahos had also been developing sodium-vapour photography, filing that patent in 1958. Here the separation happened inside the camera.
 
-Actors received ordinary lighting in front of a backdrop lit by sodium lamps. Their light occupied a very narrow yellow band. Inside a modified camera, coated optics separated that band from the rest of the image. One film record preserved the performance; another recorded the matte at the same instant. That correspondence helped preserve soft edges and transparency.
+Sodium lamps illuminated the backdrop with narrowband yellow light near 589 nanometres. The actors received separate, ordinary lighting. A specially coated prism separated the sodium band from the rest of the scene light. Colour film recorded the performance, while black-and-white film recorded the matte at the same instant.
 
-Disney used the process in Mary Poppins. Ub Iwerks helped adapt and perfect it for production, and the Academy’s shared award names Vlahos, Iwerks, and Wadsworth E. Pohl. British work also belongs to this history. A patent identifies Vlahos’s particular system; it doesn’t make the wider development a one-person invention.
+Those matched records helped preserve fine detail when Disney combined live actors with animation in Mary Poppins. Vlahos developed the prism system, and Ub Iwerks helped adapt the camera for Disney’s productions. Wadsworth E. Pohl shares their Academy technical award, presented in 1965.
+
+It was a collaborative achievement. The specialized camera, lamps and optics also limited the system’s flexibility, helping explain why Vlahos continued working on other approaches.

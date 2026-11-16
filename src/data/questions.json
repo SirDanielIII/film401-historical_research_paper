@@ -49,7 +49,7 @@
   {
     "id": 6,
     "question": "How did colour-difference compositing work?",
-    "answer": "It exploited the fact that blue-screen background light produces different photographic colour records from most foreground material. Those records were processed into mattes and a reconstructed image. Exact chemical steps are detailed in patent US3158477A.",
+    "answer": "Vlahos compared photographic colour records to distinguish a blue backing from the foreground. He then constructed travelling mattes and reconstructed foreground colour through controlled printing. Patent US 3,158,477 documents the film records and printing sequence.",
     "topic": "Colour-difference technology",
     "sources": [
       "S2"
@@ -58,7 +58,7 @@
   {
     "id": 7,
     "question": "Was he using digital RGB sensors in 1959?",
-    "answer": "No. His original system used motion-picture film and photographic colour separations. RGB is a helpful conceptual bridge, not a claim about original equipment.",
+    "answer": "No. His original method used motion-picture film and photographic colour separations. Today’s RGB channels make the principle easier to visualize, but the film-laboratory operations were different.",
     "topic": "Colour-difference technology",
     "sources": [
       "S2"
@@ -77,11 +77,10 @@
   {
     "id": 9,
     "question": "Did the chariot race use his effect?",
-    "answer": "Sources connect development of the system with Ben-Hur and sometimes mention the chariot race. Claims about every famous shot require shot-level production evidence that is not supplied here.",
+    "answer": "The Los Angeles Times published a correction: Vlahos’s colour-difference system helped create Ben-Hur’s sea battle and its aftermath, rather than the chariot scenes.",
     "topic": "Colour-difference technology",
     "sources": [
-      "S5",
-      "S9"
+      "S1"
     ]
   },
   {
@@ -145,7 +144,7 @@
   {
     "id": 16,
     "question": "What did Wadsworth E. Pohl do?",
-    "answer": "The Academy lists him as one of three jointly honoured inventors/contributors to colour travelling-matte composite cinematography. The shared award is certain; this source set gives less detail on his individual engineering role, so avoid overassigning a specific component.",
+    "answer": "Pohl was jointly honoured with Vlahos and Iwerks for developing and refining colour travelling-matte composite cinematography. The award establishes his contribution to the team; the available accounts give less detail about his individual engineering work.",
     "topic": "Mary Poppins and attribution",
     "sources": [
       "S6"
@@ -174,10 +173,11 @@
   {
     "id": 19,
     "question": "Why are green screens now more common than blue?",
-    "answer": "Many digital cameras have stronger sampled green information, and green may offer efficient extraction. It is not a universal rule: green wardrobe, reflections and scene requirements can favour blue.",
+    "answer": "A common Bayer sensor samples green at half its photosites, compared with one quarter each for red and blue. That can favour green-channel detail. Wardrobe, lighting, reflections and the camera also matter, so blue remains useful.",
     "topic": "Ultimatte and modern technology",
     "sources": [
-      "S11"
+      "S11",
+      "S4"
     ]
   },
   {
@@ -193,35 +193,37 @@
   {
     "id": 21,
     "question": "Can a camera sensor record transparency automatically?",
-    "answer": "Usually no. A conventional RGB camera records light and colour, not a perfect per-pixel foreground opacity channel. Matte or alpha information is created by keying, other capture signals or additional processes.",
+    "answer": "A conventional RGB camera measures light and colour, rather than a separate foreground-opacity value. Software estimates a matte, or an additional capture method supplies it. Modern sodium-vapour reconstruction uses synchronized colour and matte cameras.",
     "topic": "Ultimatte and modern technology",
     "sources": [
-      "S11"
+      "S14"
     ]
   },
   {
     "id": 22,
     "question": "What did Corridor Crew demonstrate?",
-    "answer": "They revisited the historical sodium-vapour approach using contemporary methods. It is a striking modern interpretation, but original patents and archival records are better evidence for 1950s–60s credit.",
+    "answer": "Paul Debevec and Nikolas Pueringer recreated sodium-vapour matting with a beam splitter, filters and synchronized digital cinema cameras. Their 2024 SIGGRAPH poster describes the system demonstrated with Corridor Crew.",
     "topic": "Ultimatte and modern technology",
     "sources": [
-      "S10"
+      "S14"
     ]
   },
   {
     "id": 23,
     "question": "How is this an example of political or social history?",
-    "answer": "His career links wartime technical expertise with Hollywood, while 1950s studio competition with television, restructuring and collaborative research institutions shaped demand for film technology.",
+    "answer": "Vlahos moved from wartime industry into shared studio research. Television competition and widescreen production increased demand for technical development. Antitrust restructuring and HUAC blacklisting shaped Hollywood’s wider business and working conditions.",
     "topic": "Historical context",
     "sources": [
       "S1",
-      "S8"
+      "S8",
+      "S15",
+      "S16"
     ]
   },
   {
     "id": 24,
     "question": "What is the strongest criticism of your argument?",
-    "answer": "The argument could overstate one inventor’s ownership of a collaborative industry. A more defensible account separates the earlier blue-screen lineage, British work, Vlahos’s patents, Iwerks’s production role, and the Academy’s shared award.",
+    "answer": "Focusing on one inventor can obscure a collaborative industry. Earlier blue-screen work, parallel British sodium research, Iwerks’s production role and Pohl’s shared award all help place Vlahos’s achievements in context.",
     "topic": "Biography and career",
     "sources": [
       "S2",

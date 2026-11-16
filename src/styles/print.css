@@ -10,5 +10,4 @@
 .vlahos-exhibit .research-article p{font-size:10pt;line-height:1.6}
 .vlahos-exhibit .media-image{box-shadow:none}
 .vlahos-exhibit :is(.question-groups,.paired-media,.career-timeline){display:block}
-.vlahos-exhibit .exhibit-footer{padding:20px 0}
 }

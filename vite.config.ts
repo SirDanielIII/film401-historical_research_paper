@@ -21,5 +21,5 @@ export default defineConfig({
       }
     },
   }],
-  base: './', // Portable standalone build; see INTEGRATION.md for a React route.
+  base: './', // Portable standalone build; see README.md for a React route.
 })

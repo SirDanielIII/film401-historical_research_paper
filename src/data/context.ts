@@ -1,31 +1,96 @@
 import type { ResearchBlock } from './chapters'
 
 export const contextBlocks: ResearchBlock[] = [
-  { title: 'Wartime expertise in a postwar industry', paragraphs: [
-    { text: 'The Second World War is a documented part of Vlahos’s employment history, rather than simply a backdrop to it. His work at Douglas Aircraft and his subsequent radar engineering at Bell Laboratories placed him in technical industries before he entered film research. His move into Hollywood illustrates a wider exchange of expertise between industrial laboratories and entertainment: making an effects process work required knowledge of measurement, optics, and the behaviour of recording systems, as well as an understanding of what a cinematographer needed.', sources: ['S1'] },
-    { text: 'The postwar Cold War environment also made scientific and military technology part of everyday American public life. That is useful context for an engineer’s career, but the evidence here supports a narrower claim about Vlahos himself. The biographical sources identify his employers and his route into the research council; they do not establish that a defence contract, Cold War policy, or classified radar project financed or directly produced his compositing patents. The relationship is a movement of technical expertise between industries, not a proven military origin for a particular effect.', sources: ['S1', 'S8'] },
-  ] },
-  { title: 'Antitrust, HUAC, and the changing studio system', paragraphs: [
-    { text: 'The 1948 Paramount decision and subsequent consent decrees challenged the major studios’ control over distribution and exhibition. They required separation of those businesses for the theatre-owning defendants and restricted practices such as block booking, in which films were licensed as a package. This helps explain why the postwar studio system was being reorganized while Vlahos entered film research. It does not establish that the antitrust decision led directly to colour-difference compositing.', sources: ['S15'] },
-    { text: 'Political pressure also affected the people who made films. In 1947, the House Un-American Activities Committee investigated alleged Communist influence in Hollywood. The Hollywood Ten’s refusal to cooperate was followed by contempt proceedings and exclusion from studio employment. Blacklisting made political association a threat to a career. This is part of the industry’s working environment, rather than evidence that Vlahos was investigated or that his own political beliefs shaped a patent; neither claim is established by the supplied biography.', sources: ['S16'] },
-    { text: 'Labour and institutional change matter alongside new machinery. Fratini’s industry history places labour conflict and declining feature production beside technological experimentation. Television competed for audiences, but it also created production work for experienced film crews. Research councils, camera departments, and laboratories helped coordinate technical changes across that unsettled industry. The history of effects therefore includes employment, shared standards, and studio priorities, as well as the inventor named on a document.', sources: ['S8'] },
-  ] },
+  {
+    "title": "Television, spectacle and shared research",
+    "paragraphs": [
+      {
+        "text": "As television spread into American homes, cinema attendance fell and studios sought attractions that television could not easily match. Fratini describes fewer, more expensive films, with widescreen photography and stereophonic sound helping sell the cinema experience. For Vlahos, this meant practical demands: a composite had to hold up on a large screen and fit the production’s camera system.",
+        "sources": [
+          "S8"
+        ]
+      },
+      {
+        "text": "The Motion Picture Research Council, established in 1948, coordinated technical work across studios. Camera departments and laboratories could share solutions rather than develop every process separately. This was the institutional setting in which Vlahos developed his colour-difference and sodium-vapour patents, both originally assigned to the council.",
+        "sources": [
+          "S8",
+          "S2",
+          "S3"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Political pressures on studio work",
+    "paragraphs": [
+      {
+        "text": "The 1948 Supreme Court Paramount decision challenged the studios’ control of distribution and exhibition. Subsequent decrees required the theatre-owning defendants to separate those businesses and restricted block booking, the licensing of films in packages. Studio economics and employment were changing as Vlahos entered film research.",
+        "sources": [
+          "S15"
+        ]
+      },
+      {
+        "text": "HUAC’s 1947 hearings investigated alleged Communist influence in Hollywood. Contempt proceedings against the Hollywood Ten and studio blacklisting made political association a threat to employment. Alongside labour conflict and Cold War pressure, these events shaped the industry around Vlahos. The documented link to his own career is industrial research; there is no evidence here of his involvement in the hearings or of Cold War funding for his compositing inventions.",
+        "sources": [
+          "S16",
+          "S8",
+          "S1"
+        ]
+      }
+    ]
+  }
 ]
 
 export const priorArtBlocks: ResearchBlock[] = [
-  { title: 'What a matte actually does', paragraphs: [
-    { text: 'A matte is a record that controls where an image is printed or displayed. A fixed matte can reserve part of a locked-off frame for another element. A travelling matte changes with the subject over successive frames, so a moving actor can cover a replacement background. That distinction explains the practical difficulty: the mask must follow the performance accurately, including boundaries that are never fully opaque.', sources: ['S2', 'S5'] },
-    { text: 'An optical printer re-photographs existing film elements. Masks, complementary records, and controlled exposures allow separate images to occupy different parts of the new frame. Each stage demands alignment, and additional photographic generations can affect image quality. Vlahos’s work belongs to this material history of film and laboratory operations. The software mask in the demonstration below is a way of seeing the problem, not the equipment used to solve it in 1959.', sources: ['S2', 'S5'] },
-  ] },
+  {
+    "title": "Technical notes: optical printing",
+    "paragraphs": [
+      {
+        "text": "An optical printer re-photographs existing film elements. A matte holds back one area of an exposure; its complementary mask holds back the other. Precisely registered passes combine the foreground and background on a new film record. Each generation of copying can affect image quality, which makes a clean original separation valuable.",
+        "sources": [
+          "S2",
+          "S5"
+        ]
+      }
+    ],
+    "technical": true
+  }
 ]
 
 export const legacyBlocks: ResearchBlock[] = [
-  { title: 'What changed for filmmakers—and what did not', paragraphs: [
-    { text: 'A more dependable matte expanded the combinations a production could attempt. Performers could be photographed separately from dangerous action, expensive environments, or animated worlds, while preserving more of the performance at the edge of the image. The value was creative and practical: an effects department had a more controllable element to work with. That did not remove the need for lighting, matching perspective, animation, registration, or patient compositing labour.', sources: ['S2', 'S5', 'S7'] },
-    { text: 'The strongest version of the argument is therefore about precision and flexibility. Vlahos did not originate all photographic combination, and later digital tools cannot be attributed to him alone. He developed influential ways of separating and reconstructing images across photographic and electronic media. Following those changes shows how engineering work can expand a filmmaker’s options without becoming visible to the audience as an effect in itself.', sources: ['S2', 'S4', 'S9'] },
-  ] },
-  { title: 'A modern reconstruction, with limits as evidence', paragraphs: [
-    { text: 'In 2024, Corridor Crew revisited sodium-vapour matting with contemporary equipment. The demonstration makes the interest in optical separation easier to understand: difficult edges and transparency remain problems even when the rest of the workflow is digital. It is a modern reconstruction, not footage of the original invention, and its dramatic title should not be used as proof that Disney lost every prism.', sources: ['S10', 'S14'] },
-    { text: 'The sources disagree on the prism story. Foster reports the familiar claim that only one existed; Disney’s 2025 archive feature says three were produced and shows an object from its collection. Neither account alone establishes an exact surviving count. Similarly, a successful modern demonstration does not prove that sodium matting would be the most practical choice for every contemporary camera or production. The historical lesson is that several solutions to compositing coexisted and served different circumstances.', sources: ['S5', 'S7', 'S10'] },
-  ] },
+  {
+    "title": "A career spent improving production tools",
+    "paragraphs": [
+      {
+        "text": "Vlahos’s work extended beyond compositing. His patents also covered screen-brightness measurement and camera-crane controls. He approached filmmaking as a set of practical systems that could be measured and improved. He died on 10 February 2013, aged 96, after a career spanning photographic laboratories and electronic image processing.",
+        "sources": [
+          "S1",
+          "S5",
+          "S9"
+        ]
+      },
+      {
+        "text": "His legacy is visible in the production choices his techniques supported: performers photographed separately from dangerous action, large environments or animation, with more of their original image detail retained. Later digital compositing has many contributors, but Vlahos’s work helped establish the precision in image separation that filmmakers came to expect.",
+        "sources": [
+          "S2",
+          "S4",
+          "S7",
+          "S9"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Further reading: the sodium-prism story",
+    "paragraphs": [
+      {
+        "text": "Foster reports the familiar account of a single sodium prism; Disney’s 2025 archive article says three were produced and shows one in its collection. The number that survive remains uncertain. This discrepancy also helps explain why the “lost invention” story around the modern recreation needs care.",
+        "sources": [
+          "S5",
+          "S7"
+        ]
+      }
+    ],
+    "technical": true
+  }
 ]

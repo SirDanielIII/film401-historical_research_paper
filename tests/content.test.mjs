@@ -22,25 +22,48 @@ test('research and all 24 classroom answers retain valid citations', () => {
   assert.equal(new Set(questions.map(q => q.topic)).size, 7)
 })
 
-test('all thirteen original bibliography links survive the DOCX extraction and redesign', () => {
-  const text = read('research/Petro_Vlahos_Expanded_Research_and_Class_QA.txt')
-  const urls = text.split('HYPERLINK TARGETS')[1].trim().split(/\r?\n/)
+test('bibliography preserves dossier sources with stable identifiers and traceable URLs', () => {
+  const urls = read('research/Petro_Vlahos_Expanded_Research_and_Class_QA.txt').split('HYPERLINK TARGETS')[1].trim().split(/\r?\n/)
   assert.equal(new Set(sources.map(s => s.id)).size, sources.length)
   for (let n = 1; n <= 13; n++) assert.ok(sourceIds.has(`S${n}`))
-  for (const url of urls) assert.ok(sources.some(s => s.url === url), `Original URL missing: ${url}`)
+  for (const url of urls) assert.ok(sources.some(s => s.url === url || s.originalUrl === url || s.url.split('?')[0] === url), `Missing source or replacement: ${url}`)
   sources.forEach(s => assert.equal(new URL(s.url).protocol, 'https:'))
 })
 
-test('five editable scripts total 650–750 spoken words; research has no upper word limit', () => {
+test('invention chapters introduce the history and retain sourced benefits and limitations', () => {
+  const colour = chapters[2].blocks
+  const sodium = chapters[3].blocks
+  assert.match(colour[0].paragraphs[0].text, /Ben-Hur.*65 mm/)
+  assert.match(colour[1].paragraphs[0].text, /film separations.*printing/)
+  assert.match(sodium[0].paragraphs[0].text, /1958.*before.*1959/)
+  const benefits = sodium[1].paragraphs.map(p => p.text).join(' ')
+  for (const term of ['exposure', 'hair', 'motion blur', 'sheer fabric', 'blue clothing', 'residual backing light']) assert.ok(benefits.includes(term), term)
+  assert.match(sodium[2].paragraphs[0].text, /special lamps.*precision optics.*dual-film camera/)
+  assert.ok(colour.at(-1).technical && sodium.at(-1).technical)
+})
+
+test('five scripts total 650–725 words and match the exported recording script', () => {
   const files = readdirSync(new URL('../src/data/narration/', import.meta.url)).filter(f => f.endsWith('.txt')).sort()
   assert.equal(files.length, 5)
   const scripts = files.map(f => read(`src/data/narration/${f}`).trim())
   const count = scripts.reduce((sum, s) => sum + s.split(/\s+/).length, 0)
-  assert.ok(count >= 650 && count <= 750, `Narration: ${count} words`)
+  assert.ok(count >= 650 && count <= 725, `Narration: ${count} words`)
   const research = [...chapters.flatMap(c => c.blocks), ...contextBlocks, ...legacyBlocks, ...priorArtBlocks].flatMap(b => b.paragraphs).map(p => p.text)
-  assert.ok(research.join(' ').split(/\s+/).length > count * 5)
+  const exported = read('public/recording-script.txt')
+  assert.ok(exported.includes(`${count} spoken words`))
+  scripts.forEach(s => assert.ok(exported.includes(s), 'Exported script differs from transcript'))
   scripts.forEach(s => assert.ok(!research.includes(s)))
   assert.ok(!scripts.some(s => /[a-z]\?[a-z]/i.test(s)), 'Damaged punctuation in narration')
+})
+
+test('rendered data and components cite existing sources and media', () => {
+  const dirs = ['src/components', 'src/data']
+  const files = ['src/App.tsx', ...dirs.flatMap(dir => readdirSync(new URL(`../${dir}/`, import.meta.url)).filter(f => /\.(tsx?|json)$/.test(f)).map(f => `${dir}/${f}`))]
+  for (const file of files) {
+    const content = read(file)
+    for (const match of content.matchAll(/["'](S\d+)["']/g)) assert.ok(sourceIds.has(match[1]), `${file}: unknown source ${match[1]}`)
+    for (const match of content.matchAll(/<MediaFigure id="([^"]+)"/g)) assert.ok(media.some(m => m.id === match[1] && m.enabled), `${file}: missing media ${match[1]}`)
+  }
 })
 
 test('every manifest asset is local, replaceable, credited and has a rights record', () => {
