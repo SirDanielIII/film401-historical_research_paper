@@ -135,7 +135,7 @@ export default function PetroVlahosExhibit({ theme: hostTheme, onToggleTheme, em
 
   useEffect(() => {
     const oldTitle = document.title
-    document.title = 'Beyond the Green Screen: Petro Vlahos and the Evolution of Special Effects'
+    document.title = 'FILM 401 Historical Research Paper'
     return () => { document.title = oldTitle }
   }, [])
 
