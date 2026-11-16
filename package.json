@@ -11,9 +11,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "node --test tests/*.test.mjs",
-    "test:audio:prepare": "node scripts/audio-fixture.mjs prepare",
-    "test:audio:clean": "node scripts/audio-fixture.mjs clean"
+    "test": "node --test tests/*.test.mjs"
   },
   "overrides": {
     "@typescript-eslint/typescript-estree": {

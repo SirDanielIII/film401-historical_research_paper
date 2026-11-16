@@ -3,8 +3,7 @@
 .vlahos-exhibit .header-top{max-width:1440px;margin:auto;min-height:76px;padding:12px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:20px}
 .vlahos-exhibit .brand{display:flex;align-items:center;gap:12px;font-size:21px;line-height:1.1}
 .vlahos-exhibit .brand small{display:block;font-size:9px;letter-spacing:.18em;color:var(--muted);margin-top:7px}
-.vlahos-exhibit .brand-symbol{font-family:var(--bold),sans-serif;font-size:35px;color:var(--green);position:relative;width:40px}
-.vlahos-exhibit .brand-symbol>span{position:absolute;font-size:20px;top:-3px;right:0;color:var(--cyan)}
+.vlahos-exhibit .brand-symbol{display:block;width:40px;height:40px;flex-shrink:0}
 .vlahos-exhibit .header-actions{display:flex;align-items:center;gap:12px}
 .vlahos-exhibit .focus-button{display:flex;align-items:center;gap:8px;min-height:44px;border:1px solid var(--line);border-radius:9px;padding:7px 15px;font-size:16px}
 .vlahos-exhibit .focus-button:hover{border-color:var(--green);background:var(--soft)}

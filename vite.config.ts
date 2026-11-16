@@ -22,5 +22,5 @@ export default defineConfig({
       }
     },
   }],
-  base: '/film401/historical_research_paper/',
+  base: '/projects/film401/historical_research_paper/',
 })
